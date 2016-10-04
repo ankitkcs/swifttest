@@ -193,15 +193,18 @@
 				TargetAttributes = {
 					8401D2701DA3C2FD0017E268 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9HH22N658A;
+						ProvisioningStyle = Manual;
 					};
 					8401D2841DA3C2FD0017E268 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9HH22N658A;
+						ProvisioningStyle = Manual;
 						TestTargetID = 8401D2701DA3C2FD0017E268;
 					};
 					8401D28F1DA3C2FD0017E268 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9HH22N658A;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8401D2701DA3C2FD0017E268;
 					};
@@ -412,10 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9HH22N658A;
 				INFOPLIST_FILE = swifttest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kcs.swifttest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatsup.magniutdegold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9def1ad8-b97c-4c8e-9ec0-ff9b4f5c81cb";
+				PROVISIONING_PROFILE_SPECIFIER = "MagnitudeGold-Adhoc";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +431,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9HH22N658A;
 				INFOPLIST_FILE = swifttest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kcs.swifttest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatsup.magniutdegold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9def1ad8-b97c-4c8e-9ec0-ff9b4f5c81cb";
+				PROVISIONING_PROFILE_SPECIFIER = "MagnitudeGold-Adhoc";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -437,6 +448,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9HH22N658A;
 				INFOPLIST_FILE = swifttestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kcs.swifttestTests;
@@ -451,6 +464,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9HH22N658A;
 				INFOPLIST_FILE = swifttestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kcs.swifttestTests;
@@ -464,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9HH22N658A;
 				INFOPLIST_FILE = swifttestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kcs.swifttestUITests;
@@ -477,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9HH22N658A;
 				INFOPLIST_FILE = swifttestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kcs.swifttestUITests;
